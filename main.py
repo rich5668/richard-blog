@@ -13,6 +13,13 @@ from sqlalchemy.ext.declarative import declarative_base
 import os
 from flask import send_from_directory
 
+####### SOMETHING THAT HELPED A LOT!!!!!!!!
+#Terminal command to create requirements.txt file for Heroku server
+# pip freeze > requirements.txt
+
+
+
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 ckeditor = CKEditor(app)
