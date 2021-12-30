@@ -12,6 +12,7 @@ from functools import wraps
 from sqlalchemy.ext.declarative import declarative_base
 import os
 from flask import send_from_directory
+import psycopg2
 
 ####### SOMETHING THAT HELPED A LOT!!!!!!!!
 #Terminal command to create requirements.txt file for Heroku server
