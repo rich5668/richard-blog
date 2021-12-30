@@ -105,6 +105,7 @@ class Comment(db.Model, Base):
 
 # Create Database Tables
 # db.create_all()
+#
 
 # Login Manager
 # Login Manager
